@@ -1,14 +1,25 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
-
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+
+  <main>
+    <header>
+      <div class="titulo">
+        Lucecitas!
+      </div>
+      <div class="estado">
+        Estado actual: {{ resultado }}
+      </div>
+    </header>
+    <section class="izq">
+
+    </section>
+    <section class="principal">
+      <button ion-button full (click)="encender()">ENCENDER</button>
+      <button ion-button full (click)="apagar()">APAGAR</button>
+    </section>
+    <section class="der">
+    </section>
+    <footer>
+
+    </footer>
+  </main>
 </ion-content>
